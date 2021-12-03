@@ -35,12 +35,41 @@ body{
 }
 .gif-301{
     display: flex;
-    margin-top: 200px;
     justify-content: center;
     background: black;
 }
+/* common */
+.text-center{
+    font-size: 4em;
+    text-align: center;
+    color: white;
+}
+.main-text{
+    padding: 20px 200px;
+    line-height: 1.8;
+    font-size: 26px;
+}
+.main-sub-text{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.main-list{
+    padding: 20px 200px;
+    line-height: 1.8;
+    font-size: 26px;
+    list-style-type: circle;
+    color: rgba(255, 255, 255, 0.589);
+}
+.paragraphe{
+    color: black;
+}
 
-/* ---------------------------------------------- */
+
+
+
+
+/* home page */
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +101,7 @@ body{
 }
 
 .container .card:hover .face.face1{
-    background: rgb(166, 76, 189);
+    background: linear-gradient(207deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     transform: translateY(0);
 }
 
@@ -131,4 +160,80 @@ body{
 .container .card .face.face2 .content a:hover{
     background: #333;
     color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/* About page  */
+p{
+    color: rgba(255, 255, 255, 0.589);
+}
+.about-title{
+    font-weight: bold;
+    font-size: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+.about-subtitle{
+    font-weight: bold;
+    font-size: 30px;
+}
+.about-subtitle-without{
+    font-weight: bold;
+    font-size: 30px;
+}
+.about-subtitle::after{
+    content: "|";
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.589);
+}
+
+
+.st1{
+    color: rgb(166, 76, 189) ;
+}
+
+.profil-img{
+    flex-grow: 1;
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about-container-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Entreprise */
+
+.orgnigramme{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mission */
+
+.schema-wp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
 }
